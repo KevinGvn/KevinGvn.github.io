@@ -278,6 +278,7 @@ background-color: blue;
 font-style: normal;
 font-weight: 900;
 font-size: 144px;
+text-align: center;
 }
 
 hr{
@@ -295,9 +296,10 @@ margin-top: -0.5px;
     box-sizing: border-box;
     margin-top: 100px;
     flex:1;
-    padding-left: 0px;
+    padding-left: 50px;
     display: flex;
     flex-direction: column;
+
 
 
 

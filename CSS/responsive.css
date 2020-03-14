@@ -1,0 +1,160 @@
+@media screen and (max-width: 600px) {
+    .sponsors{
+        width: 50px;
+        justify-content: space-between;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: -5px;
+        margin-top: 0px;
+
+
+
+    }
+
+    .footer div{
+        font-size: 10px;
+        padding: 0px;
+
+
+
+
+    }
+    .footer{
+        justify-content: space-between;
+        height: 60px;
+
+
+
+
+    }
+
+    .icon{
+        width: 20px;
+        padding-top:32px;
+
+
+
+
+
+    }
+
+    h1{
+    font-size: 35px;
+    padding-top: 100px;
+
+    }
+
+    li{
+
+        font-size: 10px;
+        padding: 0px;
+        padding-left: -5px;
+
+    }
+
+    button{
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .IMAGES{
+        flex-direction: column;
+    }
+
+    figure img{
+        width: 240px;
+    }
+
+
+    figcaption{
+        width: 240px;
+        font-size: 13px;
+        margin: 0px;
+        padding: 0px;
+        padding: 10px;
+
+
+
+
+    }
+
+    .bestseller h2{
+        font-size: 25px;
+
+    }
+
+    .IMAGES h3{
+        font-size: 40px;
+        padding: 0px;
+        margin-top: 0px;
+
+
+
+
+    }
+
+    .canada{
+        display: none;
+
+    }
+
+    .dark{
+        padding-bottom: 20px;
+
+    }
+
+
+    h5{
+        padding: 0px;
+        margin: 0px;
+        font-size: 15px;
+        padding-left: 30px;
+
+    }
+
+    hr{
+        width: 50px;
+        padding-left: 30px;
+        margin-left: 30px;
+    }
+
+
+    .description h4{
+        font-size: 40px;
+        padding: 0px;
+        margin: 0px;
+        padding-left: 30px;
+        line-height: 50px;
+
+    }
+
+    .numbers{
+        padding-top: 25px;
+
+
+    }
+
+
+    .numbers div img{
+        width: 25px;
+        padding-left: 15px;
+        
+
+
+    }
+
+    .numbers div p{
+        font-size:20px;
+    }
+
+
+
+
+
+
+
+
+}
+
+
+
