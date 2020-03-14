@@ -26,7 +26,7 @@ margin-top: 400px;
 header{
     text-align: center;
     width: 100%;
-    height: 95vh;
+    min-height: 95vh;
     background-image:url("../IMAGES/headerimage.png");
     background-repeat: no-repeat;
     color: white;   
@@ -92,7 +92,7 @@ padding-top: 15px;
 }
 
 .dark{
-height: 110vh;
+min-height: 110vh;
 background-color: rgb(51, 51, 51);
 margin-top: 0px;
 padding-top: 12px;
@@ -172,13 +172,13 @@ margin-top: 3%;
 }
 
 .white{
-    width:50vh;
+    width:100%;
     background-color: white;
     height: 100vh;
     color: #465C6A;
     display: flex;
     flex-direction: row;
-    margin-left: 15vh;
+    
 
 
 
@@ -191,8 +191,6 @@ font-style: normal;
 font-weight: 900;
 font-size: 80px;
 line-height: 96px;
-width: 678px;
-height: 384px;
 text-align: left;
 margin-top: -2vh;
 }
@@ -203,8 +201,6 @@ font-style: normal;
 font-weight: 900;
 font-size: 24px;
 line-height: 29px;
-width: 150px;
-height: 30px;
 text-align: left;
 margin-top: 12vh;
 margin-bottom: 0px;
@@ -214,7 +210,6 @@ margin-bottom: 0px;
 .white .numbers{
     display: flex;
 flex-direction: column;
-margin-top: -15vh;
 
 
 
@@ -243,17 +238,16 @@ margin-top: -15vh;
 .white .canada{
   
 color: black;
-margin-left: 12vh;
-width: 962px;
-height: 945px;
-margin-top: 5vh;
 position: relative;
+flex:1;
+background-color: blue;
 
 }
 
 .white .canada img{
-    width: 962px;
-    height: 945px;
+   width: 100%;
+   height: 100%;
+
     
 }
 
@@ -287,3 +281,14 @@ margin-top: -0.5px;
 }
 
 
+.description{
+    box-sizing: border-box;
+    margin-top: 100px;
+    flex:1;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+
+
+
+}
