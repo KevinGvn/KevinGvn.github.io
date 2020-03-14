@@ -17,9 +17,9 @@ h1{
     font-family: Gotham;
     font-style: normal;
     font-weight: 900;
-    font-size: 200px;
+    font-size: 120px;
 line-height: 0;
-margin-top: 400px;
+
 
 }
 
@@ -29,7 +29,11 @@ header{
     min-height: 95vh;
     background-image:url("../IMAGES/headerimage.png");
     background-repeat: no-repeat;
-    color: white;   
+    color: white;
+    display: flex;
+    flex-direction: column;   
+    justify-content: space-between;
+
 }
 
 
@@ -45,11 +49,12 @@ li{
 padding-right: 100px;
 padding-left: 25px;
 padding-top: 25px;
+font-size: 20px;
 }
 
 .stickyheader{
     display: flex;
-    font-size: 28px;
+    font-size: 12px;
     justify-content: space-between;
     
 font-weight: 900;
@@ -59,7 +64,6 @@ font-size: 28px;
 }
 
 button{
-    background-color: white;
     border: none;
     color: black;
     padding: 15px 32px;
@@ -131,9 +135,15 @@ figure{
 
 }
 
+figure img{
+    width: 400px;
+
+
+}
+
 div h3{
     font-weight: 900;
-    font-size: 96px;
+    font-size: 60px;
     line-height: 115px;
 
 
@@ -149,10 +159,10 @@ figure div{
 }
 
 figcaption{
-    font-size: 24px;
+    font-size: 20px;
 background-color: #5D8196;
 box-sizing: border-box;
-width: 551px;
+width: 400px;
 height: 148px;
 border-radius: 13px;
 
